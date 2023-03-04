@@ -1,0 +1,92 @@
+.forma {
+    height: 570px;
+    background-color: $main-color;
+    &__header {
+        padding-top: 150px;
+        margin-left: 610px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 90px;
+        line-height: 107.02%;
+        letter-spacing: -0.045em;
+        text-transform: uppercase;
+        color: #F7F7F7;
+    }
+    &__wrapper {
+        display: flex;
+        height: 407px;
+        width: 1370px;
+        margin-top: 50px;
+        &__linksText {
+            margin-top: 3px;
+            width: 203px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 107.02%;
+            letter-spacing: -0.045em;
+            color: #F7F7F7;
+        }
+        &__mainForma {
+            margin-left: 397px;
+            width: 770px;
+            input {
+                background-color: $main-color;
+                padding-left: 5px;
+                width: 770px;
+                height: 33px;
+                border: none;
+                color: #367848;
+
+            }
+            &__line {
+                display: block;
+                width: 770px;
+                height: 1px;
+                background: #367848;
+                margin-bottom: 40px;
+            }
+            button {
+                height: 40px;
+                width: 120px;
+                border-radius: 20px;
+                background-color: #367848;
+                margin-right: 22px;
+            }
+            &__submit {
+                display: block;
+                height: 40px;
+                width: 130px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 20px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 15px;
+                text-transform: uppercase;
+                color: #F7F7F7;
+                background-color: #367848;
+            }
+            &__reset {
+                display: block;
+                height: 40px;
+                width: 130px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 20px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 15px;
+                text-transform: uppercase;
+                color: #F7F7F7;
+                background-color: $main-color;
+                border: 2px solid #367848;
+
+            }
+        }
+    }
+}

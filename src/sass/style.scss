@@ -1,0 +1,23 @@
+@import 'libs/bootstrap-reboot.min';
+
+@import 'base/variables';
+
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+@import 'block/01/_Intero.scss';
+@import 'block/02/_we.scss';
+@import 'block/03/_services.scss';
+@import 'block/04/projects';
+@import 'block/05/work';
+@import 'block/06/team';
+@import 'block/07/video';
+@import 'block/08/forma';
+@import 'block/09/bottom';

@@ -1,0 +1,63 @@
+.work {
+    min-height: 774px;
+    background-color: $main-color;
+    &__heaader {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 90px;
+        line-height: 107.02%;
+        letter-spacing: -0.045em;
+        text-transform: uppercase;
+        color: #F7F7F7;
+        margin-left: 625px;
+        padding-top: 150px;
+    }
+    &__gridBox {
+        display: grid;
+        grid-template-columns: 570px 770px 400px;
+        grid-template-rows: repeat(2, 190px);
+        column-gap: 30px;
+        row-gap: 30px;
+        margin-top: 80px;
+        a:hover {
+            text-decoration: none;
+        }
+        &__miniBox {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29px;
+            letter-spacing: -0.045em;
+            color: #F7F7F7;
+
+            &__board {
+                height: 180px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 2px solid #367848;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 36px;
+                line-height: 29px;
+                letter-spacing: -0.045em;
+                color: #F7F7F7;
+                text-transform: uppercase;
+            }
+            &__green {
+                height: 180px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: #367848;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 36px;
+                line-height: 29px;
+                letter-spacing: -0.045em;
+                color: #F7F7F7;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

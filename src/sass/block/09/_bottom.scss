@@ -1,0 +1,85 @@
+.bottom {
+    height: 350px;
+    background-color: $main-color;
+    padding-top: 150px;
+    &__line {
+        display: block;
+        height: 1px;
+        width: 1800px;
+        background-color: #367848;
+    }
+    &__firstBox {
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        width: 91vw;
+        &__mitte {
+            margin-left: 25vw;
+            margin-top: 5px;
+            &__header {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 107.02%;
+                letter-spacing: -0.045em;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+            &__email {
+                font-style: normal;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 22px;
+                letter-spacing: -0.045em;
+                color: #FFFFFF;
+                margin-top: 15px;
+            }
+        }
+        &__endeOne {
+            margin-left: 33vw;
+        }
+        &__endeTwo {
+            margin-left: 180px;
+        }
+        &__ende__text {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 107.02%;
+            letter-spacing: -0.045em;
+            text-transform: uppercase;
+            color: #F7F7F7;
+            margin-bottom: 15px;
+        }
+    }
+    &__secondBox {
+        margin-top: 15px;
+        display: flex;
+        width: 91vw;
+        justify-content: space-between;
+        &__left {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 15px;
+            color: #F7F7F7;
+        }
+        &__center {
+            display: flex;
+            width: 40vw;
+            justify-content: space-between;
+            &__text {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 15px;
+                color: #F7F7F7;
+            }
+        }
+        &__ende {
+            display: flex;
+            width: 95px;
+            justify-content: space-between;
+        }
+    }
+}

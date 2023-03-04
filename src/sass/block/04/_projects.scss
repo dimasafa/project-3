@@ -1,0 +1,42 @@
+.projects {
+    min-height: 2043px;
+    background-color: $main-color;
+    &__header {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 90px;
+        line-height: 107.02%;
+        letter-spacing: -0.045em;
+        text-transform: uppercase;
+        color: #F7F7F7;
+        margin-left: 625px;
+    }
+    &__gridBox {
+        display: grid;
+        grid-template-columns: 570px 770px 400px;
+        grid-row: repeat(3, 579px);
+        column-gap: 30px;
+        row-gap: 70px;
+        margin-top: 70px;
+        &__miniGridBox__content {
+            display: flex;
+            margin-top: 20px;
+            justify-content: space-between;
+            &__text {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 36px;
+                line-height: 107.02%;
+                letter-spacing: -0.045em;
+                text-transform: uppercase;
+                color: #F7F7F7;
+            }
+            &__arrow {
+                display: block;
+                height: 36px;
+                width: 36px;
+                background: url('../../../img/04/arrow.png') center center/cover no-repeat;
+            }
+        }
+    }
+}

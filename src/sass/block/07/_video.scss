@@ -1,0 +1,45 @@
+.video {
+    height: 1109px;
+    background-color: $main-color;
+    padding-top: 150px;
+    position: relative;
+    &__box {
+        width: 1200px;
+        margin-left: 600px;
+        &__header {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 56px;
+            line-height: 100.02%;
+            text-transform: uppercase;
+            color: #F7F7F7;
+            text-indent: 150px;
+        }
+        &__video {
+            margin-top: 70px;
+        }
+    }
+    &__btn {
+        position: absolute;
+        top: 700px;
+        left: 1200px;
+        display: block;
+        height: 150px;
+        width: 150px;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        border-radius: 50%;
+        background: #367848;
+        cursor: pointer;
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 107.02%;
+        letter-spacing: -0.045em;
+        text-transform: uppercase;
+        color: #F7F7F7;
+    }
+
+}
