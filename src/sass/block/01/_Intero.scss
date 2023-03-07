@@ -75,6 +75,7 @@
         display: flex;
         width: 90vw;
         &__email {
+            margin-left: 20px;
             font-style: normal;
             font-weight: 400;
             font-size: 22px;
@@ -104,5 +105,8 @@
             letter-spacing: -0.045em;
             color: #F7F7F7;
         }
+    }
+    &__hamburger {
+        display: none;
     }
 }  
