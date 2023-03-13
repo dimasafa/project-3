@@ -32,6 +32,7 @@
     &__slides {
         display: flex;
         gap: 30px;
+        transition-duration: 2s;
     }
     &__btn {
         position: absolute;
@@ -54,5 +55,10 @@
         letter-spacing: -0.045em;
         text-transform: uppercase;
         color: #F7F7F7;
+        border: 1px solid #367848;
+        &:hover {
+            transform: scale(105%);
+            transition: all 0.4s;
+        }
     }
 }

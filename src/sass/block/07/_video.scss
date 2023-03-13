@@ -18,6 +18,10 @@
         }
         &__video {
             margin-top: 70px;
+            video {
+                width: 100%;
+                height: auto;
+            }
         }
     }
     &__btn {
@@ -42,6 +46,10 @@
         letter-spacing: -0.045em;
         text-transform: uppercase;
         color: #F7F7F7;
+        &:hover {
+            transform: scale(105%);
+            transition: all 0.4s;
+        }
     }
 
 }

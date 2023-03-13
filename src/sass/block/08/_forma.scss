@@ -54,14 +54,18 @@
                 justify-content: space-between;
 
                 &__submit {
-                    background-color: #367848;
-                    border: none;
+                    background-color: $main-color;
+                    border: 2px solid #367848;
                     font-style: normal;
                     font-weight: 500;
                     font-size: 12px;
                     line-height: 15px;
                     text-transform: uppercase;
                     color: #F7F7F7;
+                    &:hover {
+                        background: #367848;
+                        transition: all 0.4s;
+                    }
                 }
                 &__reset {
                     background-color: $main-color;
@@ -72,6 +76,10 @@
                     line-height: 15px;
                     text-transform: uppercase;
                     color: #F7F7F7;
+                    &:hover {
+                        background: #367848;
+                        transition: all 0.4s;
+                    }
                 }
                 button {
                     height: 40px;

@@ -53,7 +53,7 @@
             margin-left: 20px;
             display: grid;
             grid-template-columns: 32.5% 40% 22.8%;
-            grid-template-rows: repeat(2, 30vh);
+/*             grid-template-rows: repeat(2, 30vh); */
             column-gap: 20px;
             row-gap: 20px;
         }
@@ -221,6 +221,22 @@
         }
         &__bottomLine {
             margin-top: 100px;
+        }
+        &__weather {
+            left: 50%;
+            width: 350px;
+            &__city {
+                font-size: 13px;
+            }
+            &__temperatur {
+                font-size: 13px;
+            }
+            &__description {
+                font-size: 13px;
+            }
+            img {
+                width: 40px;
+            }
         }
     }
 
@@ -392,182 +408,6 @@
 @media (max-width: 992px) {
     .Intero {
         height: 800px;
-        &__header {
-            font-size: 60px;
-            width: 70%;
-        }
-        &__bottomLine {
-            margin-top: 0px;
-        }
-    }
-    .we {
-        height: auto;
-        &__textBox {
-            &__text-links {
-                width: 20%;
-                font-size: 19px;
-            }
-            &__centerBox {
-                height: 800px;
-                margin-left: -5%;
-                &__header {
-                    font-size: 60px;
-                    padding-top: 43px;
-                    margin-left: 15%;
-                }
-                &__text {
-                    margin-left: 15%;
-                }
-                &__line {
-                    margin-left: 15%;
-                }
-                &__zahlbox {
-                    &__zahl {
-                        font-size: 100px;
-                        margin-left: 20%;
-                    }
-                }
-            }
-        }
-    }
-    .services {
-        padding-top: 20px;
-        &__boxOne {
-            margin-left: 15%;
-            margin-right: 6%;
-            height: auto;
-            margin-bottom: 50px;
-            &__header {
-                font-size: 60px;
-            }
-            &__img {
-                width: 100%;
-                margin-top: 50px;
-            }
-        }
-        &__boxTwo {
-            height: 300px;
-            margin-left: -7%;
-            margin-top: 250px;
-            &__line {
-                width: 40vw;
-            }
-            &__Text1, &__Text2, &__Text3 {
-                padding-left: 20px;
-                font-size: 25px;
-                margin-top: 4%;
-                margin-bottom: 4%;
-            }
-        }
-    }
-    .projects {
-        &__header {
-            font-size: 60px;
-        }
-        &__gridBox {
-            margin-top: 50px;
-            &__miniGridBox__content {
-                &__text {
-                    font-size: 25px;
-                }
-                &__arrow {
-                    height: 25px;
-                    width: 25px;
-                }
-            }
-        }
-    }
-    .work {
-        margin-top: -50px;
-        min-height: 550px;
-        &__header {
-            font-size: 60px;
-        }
-        &__gridBox {
-            grid-template-rows: repeat(2, 16vh);
-            &__miniBox {
-                font-size: 20px;
-    
-                &__board {
-                    height: 120px;
-                    font-size: 28px;
-                }
-                &__green {
-                    height: 120px;
-                    font-size: 28px;
-                }
-            }
-        }
-    }
-    .team {
-        &__header {
-            font-size: 60px;
-        }
-    }
-    .video {
-        &__box {
-            &__header {
-                font-size: 30px;
-            }
-            &__video {
-                margin-top: 70px;
-                &__img {
-                    width: 100%;
-                }
-            }
-        }
-        &__btn {
-            top: 65%;
-        }
-    }
-    .forma {
-        &__header {
-            font-size: 60px;
-        }
-        &__wrapper {
-            &__linksText {
-                margin-top: 10px;
-            }
-        }
-    }
-    .bottom {
-        &__firstBox {
-            margin-top: 10px;
-            margin-bottom: 0px;
-            width: 88%;
-            &__mitte {
-                margin-top: 12px;
-                &__header {
-                    font-size: 10px;
-                }
-                &__email {
-                    font-size: 15px;
-                }
-            }
-            &__ende__text {
-                font-size: 10px;
-            }
-        }
-        &__secondBox {
-            margin-left: 20px;
-            width: 96%;
-            &__left {
-                font-size: 10px;
-            }
-            &__center {
-                width: 46%;
-                &__text {
-                    font-size: 9px;
-                }
-            }
-        }
-    }
-};
-
-@media (max-width: 992px) {
-    .Intero {
-        height: 800px;
-
         &__menuLine {
             &__menu {
                 ul {
@@ -584,9 +424,15 @@
                 }
             }
         }
-
+        &__weatherBtn {
+            &__text {
+                padding-left: 35px;
+                margin-top: -27px;
+                font-size: 10px;
+            }
+        }
         &__header {
-            font-size: 40px;
+            font-size: 50px;
             width: 70%;
         }
         &__bottomLine {
@@ -601,14 +447,37 @@
                 font-size: 15px;
             }
         }
+        &__weather {
+            left: 50%;
+            width: 350px;
+            &__city {
+                font-size: 12px;
+            }
+            &__temperatur {
+                font-size: 12px;
+            }
+            &__description {
+                font-size: 12px;
+            }
+            img {
+                width: 35px;
+            }
+        }
     }
     .we {
+        height: auto;
         &__textBox {
+            &__text-links {
+                width: 20%;
+                font-size: 19px;
+            }
             &__centerBox {
                 height: 800px;
                 margin-left: -5%;
                 &__header {
                     font-size: 50px;
+                    padding-top: 43px;
+                    margin-left: 15%;
                 }
                 &__text {
                     margin-left: 15%;
@@ -634,6 +503,7 @@
         &__boxOne {
             margin-left: 10%;
             margin-right: 8%;
+            height: auto;
             margin-bottom: 50px;
             width: 50%;
             &__header {
@@ -641,6 +511,7 @@
             }
             &__img {
                 width: 100%;
+                margin-top: 50px;
             }
             &__subheader {
                 font-size: 30px;
@@ -651,13 +522,17 @@
             }
         }
         &__boxTwo {
+            height: 300px;
             margin-left: -3%;
             margin-top: 160px;
             &__line {
                 width: 50vw;
             }
             &__Text1, &__Text2, &__Text3 {
+                padding-left: 20px;
                 font-size: 25px;
+                margin-top: 4%;
+                margin-bottom: 4%;
             }
         }
     }
@@ -666,6 +541,7 @@
             font-size: 50px;
         }
         &__gridBox {
+            margin-top: 50px;
             grid-template-columns: 31.5% 42.2% 21.8%;
             column-gap: 25px;
             &__miniGridBox__content {
@@ -680,8 +556,8 @@
         }
     }
     .work {
-        min-height: 300px;
         margin-top: -50px;
+        min-height: 550px;
         &__header {
             font-size: 50px;
         }
@@ -693,6 +569,7 @@
             row-gap: 20px;
             &__miniBox {
                 font-size: 15px;
+    
                 &__board {
                     height: 100px;
                     font-size: 24px;
@@ -725,6 +602,12 @@
             &__header {
                 font-size: 25px;
             }
+            &__video {
+                margin-top: 70px;
+                &__img {
+                    width: 100%;
+                }
+            }
         }
         &__btn {
             top: 70%;
@@ -741,6 +624,7 @@
             width: 100%;
             height: 180px;
             &__linksText {
+                margin-top: 10px;
                 width: 20%;
                 font-size: 19px;
             }
@@ -824,6 +708,31 @@
                 &__text {
                     padding-left: 15px;
                 }
+            }
+        }
+        &__weatherBtn {
+            right: 5vw;
+            &__knopf {
+                width: 80px;
+            }
+            &__text {
+                padding-left: 12px;
+            }
+        }
+        &__weather {
+            left: 30%;
+            width: 280px;
+            &__city {
+                font-size: 12px;
+            }
+            &__temperatur {
+                font-size: 12px;
+            }
+            &__description {
+                font-size: 12px;
+            }
+            img {
+                width: 30px;
             }
         }
 
@@ -1062,6 +971,38 @@
                 }
             }
         }
+        &__weatherBtn {
+            right: 5vw;
+            margin-top: 5px;
+            top: 90px;
+            &__knopf {
+                width: 50px;
+                height: 30px;
+            }
+            &__text {
+
+                margin-top: -23px;
+                padding-left: 7px;
+                font-size: 6px;
+            }
+        }
+        &__weather {
+            left: 25%;
+            width: 180px;
+            height: 25px;
+            &__city {
+                font-size: 9px;
+            }
+            &__temperatur {
+                font-size: 9px;
+            }
+            &__description {
+                font-size: 9px;
+            }
+            img {
+                width: 25px;
+            }
+        }
 
         &__header {
             font-size: 30px;
@@ -1099,6 +1040,51 @@
                 width: 40px;
                 background-color: #367848;
                 border-radius: 50%;
+            }
+        }
+
+        &__mobile {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            width: 280px;
+            background-color: $main-color;
+            z-index: 11;
+            &__kreuz {
+                color: aliceblue;
+                position: absolute;
+                right: 10px;
+                cursor: pointer;
+            }
+            &__logo {
+                margin-top: 20%;
+                margin-left: 50px;
+                a {
+                    img {
+                        width: 80px;
+                    }
+                }
+            }
+            &__mobileMenu {
+                margin-top: 20px;
+                margin-left: 50px;
+                ul {
+                    list-style-type: none;
+                    li {
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 170.02%;
+                        letter-spacing: -0.045em;
+                        text-transform: uppercase;
+                        a {
+                            display: block;
+                            color: #F7F7F7;
+                        }
+                    }
+                }
             }
         }
     }

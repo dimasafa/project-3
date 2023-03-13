@@ -29,9 +29,9 @@
                         <li><a href="">contacts</a></li>
                     </ul>
                 </div>
-                <div class="Intero__menuLine__menuBtn">
+                <div class="Intero__menuLine__menuBtn" data-modal>
                     <div class="Intero__menuLine__menuBtn__knopf"></div>
-                    <div class="Intero__menuLine__menuBtn__text">
+                    <div class="Intero__menuLine__menuBtn__text" >
                         <a href="#">lets talk</a>
                     </div>
                 </div>
@@ -47,6 +47,38 @@
                 <div class="Intero__hamburger__line"></div>
                 <div class="Intero__hamburger__line"></div>
                 <div class="Intero__hamburger__line"></div>
+            </div>
+        </div>
+
+        <div class="Intero__mobile">
+            <div class="Intero__mobile__kreuz">&times;</div>
+            <div class="Intero__mobile__logo">
+                <a href="#"><img src="img/01/logo 1.png" alt="logo"></a>
+            </div>
+            <div class="Intero__mobile__mobileMenu">
+                <ul>
+                    <li><a href="#" class="Intero__mobile__mobileItem">about</a></li>
+                    <li><a href="#" class="Intero__mobile__mobileItem">services</a></li>
+                    <li><a href="#" class="Intero__mobile__mobileItem">projects</a></li>
+                    <li><a href="#" class="Intero__mobile__mobileItem">steps</a></li>
+                    <li><a href="#" class="Intero__mobile__mobileItem">team</a></li>
+                    <li><a href="#" class="Intero__mobile__mobileItem">contacts</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="Intero__overlay"></div>
+
+        <div class="Intero__weather">
+            <div class="Intero__weather__city">Bochum</div>
+            <div class="Intero__weather__temperatur" id="temperature">25C</div>
+            <div class="Intero__weather__description" id="description">rain</div>
+            <img src="img/rain.png" alt="weatherIcon" id="icon" class="Intero__weather__icon">
+        </div>
+
+        <div class="Intero__weatherBtn">
+            <div class="Intero__weatherBtn__knopf"></div>
+            <div class="Intero__weatherBtn__text">
+                <a href="#">Wetter API</a>
             </div>
         </div>
     </section>
@@ -245,8 +277,10 @@
                         <div class="team__slider__person__name">laura gibson</div>
                     </div>
                 </div>
+                <div class="team__slider__controls">
+                    <button class="team__btn">drag</button>
+                  </div>
             </div>
-            <div class="team__btn">drag</div>
         </div>
     </section>
 
@@ -255,7 +289,7 @@
             <div class="video__box">
                 <div class="video__box__header">Over the years we’ve thought a lot about how we balance being good humans with doing good work and running a good business</div>
                 <div class="video__box__video">
-                    <img src="img/07/Video.png" alt="video" class="video__box__video__img">
+                    <video src="img/Is This the Best Modern House in the World (House Tour).mp4" class="video__box__video__player" controls></video>
                 </div>
             </div>
             <div class="video__btn">play</div>
@@ -354,6 +388,21 @@
             </div>
         </div>
     </section>
+
+    <div class="modal">
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <form action="#">
+                    <div class="modal__close" data-close>&times;</div>
+                    <div class="modal__title">Work with us</div>
+                    <input required required placeholder="Name" name="name" class="modal__input">
+                    <input required placeholder="Email" name="email" type="email" class="modal__input">
+                    <input required placeholder="Company name" name="company" type="phone" class="modal__input">
+                    <button class="modal__input_btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
 
     <script src="js/script.js"></script>
 </body>
