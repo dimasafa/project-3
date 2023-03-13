@@ -59,8 +59,6 @@
         }
     }
     .team {
-        position: relative;
-        z-index: -5;
 
         &__slider {
             margin-left: 20px;
@@ -83,8 +81,6 @@
 
     }
     .video {
-        position: relative;
-        z-index: -6;
         height: 1000px;
         padding-top: 80px;
         &__box {
@@ -101,14 +97,12 @@
             }
         }
         &__btn {
-            top: 70vh;
+            top: 60%;
             left: 60vw;
         }
     
     }
     .forma {
-        position: relative;
-        z-index: -7;
         height: 570px;
         &__wrapper {
             margin-left: 20px;
@@ -323,7 +317,7 @@
             }
         }
         &__btn {
-            top: 60vh;
+            top: 70%;
             left: 62vw;
             height: 100px;
             width: 100px;
@@ -523,7 +517,7 @@
             }
         }
         &__btn {
-            top: 53vh;
+            top: 65%;
         }
     }
     .forma {
@@ -733,7 +727,7 @@
             }
         }
         &__btn {
-            top: 45vh;
+            top: 70%;
             left: 55vw;
             height: 90px;
             width: 90px;
@@ -966,7 +960,7 @@
             }
         }
         &__btn {
-            top: 36vh;
+            top: 70%;
             left: 50vw;
             height: 60px;
             width: 60px;
@@ -1258,7 +1252,7 @@
         &__btn {
             height: 50px;
             width: 50px;
-            top: 180px;
+            top: 40%;
             left: 81vw;
             font-size: 11px;
         }
@@ -1287,8 +1281,6 @@
     .forma {
         margin-top: -2px;
         height: 100px;
-        position: relative;
-        z-index: -7;
         &__header {
             padding-top: 30px;
             font-size: 25px;
@@ -1311,33 +1303,31 @@
                 &__line {
                     margin-bottom: 5px;
                 }
-                button {
-                    margin-top: 15px;
+
+                &__btn {
+                    display: flex;
+                    width: 150px;
                     height: 20px;
-                    width: 50px;
-                }
-                &__submit {
-                    margin-top: -2px;
-                    margin-left: -2px;
-                    height: 20px;
-                    width: 50px;
-                    font-size: 8px;
-                }
-                &__reset {
-                    margin-top: -2px;
-                    margin-left: -2px;
-                    height: 20px;
-                    width: 50px;
-                    font-size: 8px;
-                    border: 1px solid #367848;
+                    justify-content: space-between;
+                    margin-top: 20px;
+    
+                    &__submit {
+                        font-size: 8px;
+                    }
+                    &__reset {
+                        font-size: 8px;
+                    }
+                    button {
+                        height: 20px;
+                        width: 60px;
+                        border-radius: 20px;
+                    }
                 }
             }
         }
     }
     .bottom {
         height: 195px;
-        position: relative;
-        z-index: -8;
         &__firstBox {
             margin-top: 0px;
             a {

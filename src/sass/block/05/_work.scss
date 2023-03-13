@@ -44,6 +44,10 @@
                 letter-spacing: -0.045em;
                 color: #F7F7F7;
                 text-transform: uppercase;
+                &:hover {
+                    background: #367848;
+                    transition: all 0.4s;
+                }
             }
             &__green {
                 height: 180px;
@@ -58,6 +62,11 @@
                 letter-spacing: -0.045em;
                 color: #F7F7F7;
                 text-transform: uppercase;
+                border: none;
+                &:hover {
+                    border: 1px solid yellowgreen;
+                    transition: all 0.1s;
+                }
             }
         }
     }

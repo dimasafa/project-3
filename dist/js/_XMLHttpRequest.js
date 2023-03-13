@@ -1,4 +1,4 @@
-// XMLHttpRequest
+/* // XMLHttpRequest
 
 const forms = document.querySelectorAll('form');
 
@@ -52,3 +52,4 @@ function postData(form) {
 
     });
 }
+ */

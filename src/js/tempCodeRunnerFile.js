@@ -1,4 +1,4 @@
-const {MongoClient} = require('mongodb');
+/* const {MongoClient} = require('mongodb');
 
 const client = new MongoClient('mongodb+srv://dimas-aa:Himdimas123@cluster0.muk3gwu.mongodb.net/mongo?retryWrites=true&w=majority');
 
@@ -18,4 +18,4 @@ const start = async () => {
     } 
 }
 
-start();
+start(); */

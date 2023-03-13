@@ -47,46 +47,37 @@
                 background: #367848;
                 margin-bottom: 40px;
             }
-            button {
-                height: 40px;
-                width: 120px;
-                border-radius: 20px;
-                background-color: #367848;
-                margin-right: 22px;
-            }
-            &__submit {
-                display: block;
-                height: 40px;
-                width: 130px;
+            &__btn {
                 display: flex;
-                justify-content: center;
-                align-items: center;
-                border-radius: 20px;
-                font-style: normal;
-                font-weight: 500;
-                font-size: 12px;
-                line-height: 15px;
-                text-transform: uppercase;
-                color: #F7F7F7;
-                background-color: #367848;
-            }
-            &__reset {
-                display: block;
+                width: 280px;
                 height: 40px;
-                width: 130px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                border-radius: 20px;
-                font-style: normal;
-                font-weight: 500;
-                font-size: 12px;
-                line-height: 15px;
-                text-transform: uppercase;
-                color: #F7F7F7;
-                background-color: $main-color;
-                border: 2px solid #367848;
+                justify-content: space-between;
 
+                &__submit {
+                    background-color: #367848;
+                    border: none;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 15px;
+                    text-transform: uppercase;
+                    color: #F7F7F7;
+                }
+                &__reset {
+                    background-color: $main-color;
+                    border: 2px solid #367848;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 15px;
+                    text-transform: uppercase;
+                    color: #F7F7F7;
+                }
+                button {
+                    height: 40px;
+                    width: 130px;
+                    border-radius: 20px;
+                }
             }
         }
     }
