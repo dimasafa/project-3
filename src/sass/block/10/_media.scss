@@ -1,5 +1,8 @@
 @media (max-width: 2000px) {
     .Intero {
+        &__style {
+            left: 25px;
+        }
         &__bottomLine {
             width: 1500px;
             margin-left: 30px;
@@ -59,7 +62,7 @@
         }
     }
     .team {
-
+        height: auto;
         &__slider {
             margin-left: 20px;
             width: 98.7%;
@@ -173,7 +176,7 @@
         }
     }
     .team {
-        height: auto;
+
         &__header {
             margin-left: unset;
             text-align: center;
@@ -407,6 +410,22 @@
 
 @media (max-width: 992px) {
     .Intero {
+        &__style {
+            width: 80px;
+            height: 30px;
+            &__dark {
+                height: 30px;
+                width: 30px;
+                font-size: 0px;
+                border-radius: 50%;
+            }
+            &__white {
+                height: 30px;
+                width: 30px;
+                font-size: 0px;
+                border-radius: 50%;
+            }
+        }
         height: 800px;
         &__menuLine {
             &__menu {
@@ -939,11 +958,45 @@
             }
         }
     }
+
+    .modal {
+        &__dialog {
+            max-width: 400px;
+        }
+        &__title {
+            font-size: 18px;
+        }
+        &__input {
+            width: 230px;
+            height: 40px;
+            font-size: 15px;
+        }
+        &__input_btn {
+            width: 230px;
+            height: 40px;
+            font-size: 13px;
+        }
+    }
+    
 };
 
 @media (max-width: 576px) {
     .Intero {
         height: 530px;
+        &__style {
+            left:30px;
+            top: 8px;
+            width: 50px;
+            height: 20px;
+            &__dark {
+                height: 20px;
+                width: 20px;
+            }
+            &__white {
+                height: 20px;
+                width: 20px;
+            }
+        }
         &__menuLine {
             padding-top: 30px;
             &__logo {
@@ -987,7 +1040,7 @@
             }
         }
         &__weather {
-            left: 25%;
+            left: 30%;
             width: 180px;
             height: 25px;
             &__city {
@@ -1362,6 +1415,25 @@
                     }
                 }
             }
+        }
+    }
+    .modal {
+        width: 100vw;
+        &__dialog {
+            max-width: 280px;
+        }
+        &__title {
+            font-size: 14px;
+        }
+        &__input {
+            width: 180px;
+            height: 30px;
+            font-size: 12px;
+        }
+        &__input_btn {
+            width: 180px;
+            height: 30px;
+            font-size: 11px;
         }
     }
 };

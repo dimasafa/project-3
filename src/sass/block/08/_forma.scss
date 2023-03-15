@@ -2,6 +2,10 @@
     height: 570px;
     background-color: $main-color;
     margin-top: -2px;
+    .forma__hover {
+        background: #367848;
+        transition: all 0.4s;
+    }
     &__header {
         padding-top: 150px;
         margin-left: 610px;
@@ -11,7 +15,7 @@
         line-height: 107.02%;
         letter-spacing: -0.045em;
         text-transform: uppercase;
-        color: #F7F7F7;
+        color: $dark-text-color;
     }
     &__wrapper {
         display: flex;
@@ -26,7 +30,7 @@
             font-size: 22px;
             line-height: 107.02%;
             letter-spacing: -0.045em;
-            color: #F7F7F7;
+            color: $dark-text-color;
         }
         &__mainForma {
             margin-left: 397px;

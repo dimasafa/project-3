@@ -15,7 +15,7 @@
             line-height: 107.02%;
             letter-spacing: -0.045em;
             text-transform: uppercase;
-            color: #F7F7F7;
+            color: $dark-text-color;
         }
         &__img {
             margin-top: 70px;
@@ -27,7 +27,7 @@
             line-height: 107.02%;
             letter-spacing: -0.045em;
             text-transform: uppercase;
-            color: #F7F7F7;
+            color: $dark-text-color;
             margin-top: 20px;
         }
         &__text {
@@ -37,7 +37,7 @@
             font-size: 18px;
             line-height: 22px;
             letter-spacing: -0.045em;
-            color: #F7F7F7;
+            color: $dark-text-color;
             margin-top: 10px;
         }
     }
@@ -60,7 +60,7 @@
             line-height: 107.02%;
             letter-spacing: -0.045em;
             text-transform: uppercase;
-            color: #F7F7F7;
+            color: $dark-text-color;
             margin-top: 46px;
             margin-bottom: 46px;
         }

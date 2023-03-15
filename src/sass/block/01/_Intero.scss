@@ -2,6 +2,44 @@
     background: url('../../../img/01/Photo.png') center center/cover no-repeat;
     height: 1200px;
     position: relative;
+    &__style {
+        position: absolute;
+        display: flex;
+        width: 140px;
+        height: 25px;
+        justify-content: space-between;
+        top: 15px;
+        a {
+            text-decoration: none;
+        }
+
+        &__dark {
+            display: block;
+            height: 25px;
+            width: 60px;
+            background: #000;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            font-size: 15px;
+            border: 3px solid #367848;
+            border-radius: 5px;
+        }
+        &__white {
+            display: block;
+            height: 25px;
+            width: 60px;
+            background: #fff;
+            color: #000;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            font-size: 15px;
+            border: 3px solid #fff;
+            border-radius: 5px;
+        }
+    }
     &__menuLine {
         padding-top: 50px;
         display: flex;
